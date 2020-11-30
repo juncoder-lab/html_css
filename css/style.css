@@ -210,3 +210,106 @@ header {
     letter-spacing: normal;
     color: #666666;
 }
+.screen3wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.screen3HeadText {
+    margin-top: 122px;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.screen3SmallText {
+    width: 444px;
+    margin: 26px auto;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+}
+.screen3Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen3Button a {
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #99aade;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.screen3Images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.screen3Images img {
+    margin-bottom: 30px;
+}
+.screen4 {
+    background-image: url("../img/screen4bg.png");
+    min-height: 500px;
+    background-size: cover;
+    margin-top: 90px;
+    padding-top: 142px;
+}
+.screen4Text1 {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.screen4Text2 {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 542px;
+    margin: 25px auto 0;
+}
+.screen4Text3 {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 59px auto 23px;
+}
+.screen4Icon {
+    display: flex;
+    justify-content: center;
+}
