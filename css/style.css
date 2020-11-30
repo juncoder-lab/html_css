@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+}
+header {
+    background-image: url("../img/bgimage.png");
+    min-height: 980px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 60px 0;
+    align-items: center;
+}
+.menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 1050px;
+}
+.menu_list li a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #99aade;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.menu_list li a:hover {
+    color: #7492ec;
+}
+.btn1 a {
+    display: inline-block;
+    width: 198px;
+    background-color: #7492ec;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.slogan1 {
+    margin-left: 1146px;
+    margin-top: 212px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1.39;
+    color: rgba(76, 119, 235, 0.8);
+}
+.slogan2 {
+    margin-left: 1176px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1.39;
+    color: rgba(76, 119, 235, 0.8);
+}
+.slogan3 {
+    margin-left: 1206px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1.39;
+    color: rgba(76, 119, 235, 0.8);
+}
+.screen1 {
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+.left h2 {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(116, 146, 236);
+    line-height: 0.583;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.left p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.714;
+    margin-bottom: 48px;
+}
+.video {
+    position: relative;
+}
+.plbutton {
+    position: absolute;
+    bottom: 150px;
+    left: 250px;
+}
+.left {
+    width: 568px;
+    margin-top: 104px;
+}
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.right {
+    margin-left: 130px;
+    margin-top: -30px;
+}
+.item1 img {
+    margin-right: 30px;
+}
+.big {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 2.667;
+    font-weight: bold;
+}
+.small {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.714;
+}
+.screen1wrapper {
+    background-image: url("../img/screen1bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 120px;
+    padding-top: 100px;
+    margin-top: -70px;
+}
+.screen2 {
+    background-image: url("../img/screen2_bg.png");
+    background-size: cover;
+    min-height: 794px;
+}
+.screen2_wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.screen2_head_image {
+    display: flex;
+    justify-content: center;
+}
+.screen2_h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7492ec;
+}
+.screen2_items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.screen2_item1 {
+    width: 25%;
+}
+.screen2_item1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.33;
+    color: #7492ec;
+    margin-top: 31px;
+    margin-bottom: 17px;
+    min-height: 2.4em;
+}
+.screen2_item1_list1 {
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: #999999;
+}
+.screen2_item1_list1 img {
+    margin-right: 12px;
+}
+.screen2_item1 p {
+    margin-top: 25px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #666666;
+}
