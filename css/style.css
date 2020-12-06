@@ -460,3 +460,14 @@ header {
     border-radius: 30px;
     margin-left: -140px;
 }
+.screen9 {
+    background-color: #222222;
+}
+.screen9_wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 60px 0;
+}
