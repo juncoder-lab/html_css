@@ -1,3 +1,60 @@
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+    .menu_list {
+        margin-left: 29%;
+    }
+    .slogan1 {
+        font-size: 50px;
+    }
+    .slogan2 {
+        font-size: 50px;
+    }
+    .slogan3 {
+        font-size: 50px;
+    }
+    .right {
+        margin-left: 100px;
+    }
+    .screen2_wrapper {
+        padding: 0 10px;
+    }
+    .screen8_wrapper {
+        padding: 0 10px;
+    }
+    .screen9_wrapper {
+        padding: 0 10px;
+    }
+}
 
+@media (min-width: 992px) {
+    .menu_list {
+        margin-left: 20%;
+    }
+    .menu_list li a {
+        font-size: 12px;
+    }
+    .slogan1 {
+        font-size: 45px;
+        margin-left: 0;
+    }
+    .slogan2 {
+        font-size: 45px;
+        margin-left: 5%;
+    }
+    .slogan3 {
+        font-size: 45px;
+        margin-left: 10%;
+    }
+    .screen1 {
+        max-width: 1170px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right {
+        margin: 30px 0;
+    }
+    .screen1wrapper {
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 0;
 }

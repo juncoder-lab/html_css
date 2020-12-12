@@ -4,24 +4,26 @@
     padding: 0;
 }
 .wrapper {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 header {
     background-image: url("../img/bgimage.png");
     min-height: 980px;
+    background-size: cover;
 }
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 135px 60px 0;
+    padding: 35px 60px 0;
     align-items: center;
 }
 .menu_list {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-left: 1050px;
+    margin-left: 54%;
 }
 .menu_list li a {
     margin-right: 25px;
@@ -50,7 +52,7 @@ header {
     text-transform: uppercase;
 }
 .slogan1 {
-    margin-left: 1146px;
+    margin-left: 65%;
     margin-top: 212px;
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
@@ -59,7 +61,7 @@ header {
     color: rgba(76, 119, 235, 0.8);
 }
 .slogan2 {
-    margin-left: 1176px;
+    margin-left: 70%;
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
@@ -68,7 +70,7 @@ header {
     color: rgba(76, 119, 235, 0.8);
 }
 .slogan3 {
-    margin-left: 1206px;
+    margin-left: 75%;
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
@@ -79,7 +81,7 @@ header {
 .screen1 {
     display: flex;
     justify-content: center;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .left h2 {
@@ -149,7 +151,7 @@ header {
     min-height: 794px;
 }
 .screen2_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .screen2_head_image {
@@ -173,7 +175,7 @@ header {
     margin-top: 80px;
 }
 .screen2_item1 {
-    width: 25%;
+    width: 24%;
 }
 .screen2_item1 h2 {
     font-family: 'Poppins', sans-serif;
@@ -211,7 +213,7 @@ header {
     color: #666666;
 }
 .screen3wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .screen3HeadText {
@@ -314,7 +316,7 @@ header {
     justify-content: center;
 }
 .screen5_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,7 +354,7 @@ header {
     background-color: #f8f7fc;
 }
 .screen6_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin:0 auto;
     display: flex;
     justify-content: center;
@@ -402,7 +404,7 @@ header {
     margin-top: -60px;
 }
 .screen7_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -413,7 +415,7 @@ header {
     background-color: #181818;
 }
 .screen8_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -445,11 +447,11 @@ header {
     padding: 13px 0 13px 15px;
     border-radius: 30px;
     border: none;
-    /*padding-left: 10px;*/
     font-family: Poppins, sans-serif;
     font-size: 12px;
     font-weight: 600;
     background-color: rgb(51, 51, 51);
+    color: white;
 }
 .screen8_input input:focus {
     outline: none;
@@ -477,7 +479,7 @@ header {
     background-color: #222222;
 }
 .screen9_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
