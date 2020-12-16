@@ -83,9 +83,6 @@ header {
     max-width: 1170px;
     margin: 0 auto;
 }
-/*.screen1_video {
-    width: 90%;
-}*/
 .left h2 {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
@@ -110,7 +107,7 @@ header {
     left: 250px;
 }
 .left {
-    width: 568px;
+    max-width: 568px;
     margin-top: 104px;
 }
 .item1 {
