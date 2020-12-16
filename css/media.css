@@ -1,15 +1,111 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    header {
+        background-image: url("../img/bgimage576.png");
+        min-height: 294px;
+    }
+    .menu_list {
+        display: none;
+    }
+    .slogan1 {
+        margin-left: 0;
+        font-size: 55px;
+    }
+    .slogan2 {
+        margin-left: 5%;
+        font-size: 55px;
+    }
+    .slogan3 {
+        margin-left: 10%;
+        font-size: 55px;
+    }
+    .screen1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .screen1_video {
+        width: 310px;
+    }
+    .right {
+        margin: 30px 10%;
+    }
+    .screen1wrapper {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .screen2_items {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .screen2_item1 {
+        width: 69%;
+    }
+    .screen3Images {
+        justify-content: center;
+    }
+    .screen3Images_long {
+        width: 570px;
+    }
+    .screen5_item1 {
+        width: 48%;
+    }
+    .screen6_big_text {
+        font-size: 25px;
+    }
+    .screen6_small_text {
+        font-size: 12px;
+    }
+    .screen6_left {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .screen9_wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .screen8_wrapper {
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .btn1 a {
+        width: 125px;
+        padding: 10px 11px 10px 11px;
+        font-size: 7px;
+    }
+    .slogan1 {
+        font-size: 30px;
+        margin-left: 60%;
+        margin-top: -10px;
+    }
+    .slogan2 {
+        font-size: 30px;
+        margin-left: 65%;
+        margin-top: 8px;
+    }
+    .slogan3 {
+        font-size: 30px;
+        margin-left: 70%;
+        margin-top: 8px;
+    }
+}
 @media (min-width: 1200px) {
+    header {
+        min-height: 980px;
+    }
     .menu_list {
         margin-left: 29%;
     }
     .slogan1 {
         font-size: 50px;
+        margin-left: 70%;
     }
     .slogan2 {
         font-size: 50px;
+        margin-left: 75%;
     }
     .slogan3 {
         font-size: 50px;
+        margin-left: 80%;
     }
     .right {
         margin-left: 100px;
@@ -26,6 +122,10 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    header {
+        background-image: url("../img/bgimage1200.png");
+        min-height: 613px;
+    }
     .menu_list {
         margin-left: 20%;
     }
@@ -33,16 +133,17 @@
         font-size: 12px;
     }
     .slogan1 {
+        margin-top: 65px;
         font-size: 45px;
-        margin-left: 0;
+        margin-left: 60%;
     }
     .slogan2 {
         font-size: 45px;
-        margin-left: 5%;
+        margin-left: 65%;
     }
     .slogan3 {
         font-size: 45px;
-        margin-left: 10%;
+        margin-left: 70%;
     }
     .screen1 {
         max-width: 1170px;
@@ -83,6 +184,10 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    header {
+        background-image: url("../img/bgimage991.png");
+        min-height: 506px;
+    }
     .menu_list {
         margin-left: 0;
     }
@@ -93,16 +198,17 @@
         padding: 25px 11px 0;
     }
     .slogan1 {
-        margin-left: 0;
-        font-size: 55px;
+        margin-top: 65px;
+        font-size: 40px;
+        margin-left: 60%;
     }
     .slogan2 {
-        margin-left: 5%;
-        font-size: 55px;
+        font-size: 40px;
+        margin-left: 65%;
     }
     .slogan3 {
-        margin-left: 10%;
-        font-size: 55px;
+        font-size: 40px;
+        margin-left: 70%;
     }
     .screen1 {
         flex-direction: column;
@@ -141,6 +247,10 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    header {
+        background-image: url("../img/bgimage768.png");
+        min-height: 392px;
+    }
     .menu_list {
         display: none;
     }
@@ -191,7 +301,7 @@
     }
     .screen6_left {
         margin-left: 10px;
-        margin-right: 0px;
+        margin-right: 0;
     }
     .screen9_wrapper {
         flex-wrap: wrap;
@@ -201,5 +311,25 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .btn1 a {
+        width: 125px;
+        padding: 10px 11px 10px 11px;
+        font-size: 7px;
+    }
+    .slogan1 {
+        font-size: 30px;
+        margin-left: 60%;
+        margin-top: -10px;
+    }
+    .slogan2 {
+        font-size: 30px;
+        margin-left: 65%;
+        margin-top: 8px;
+    }
+    .slogan3 {
+        font-size: 30px;
+        margin-left: 70%;
+        margin-top: 8px;
     }
 }

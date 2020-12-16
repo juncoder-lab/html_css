@@ -10,7 +10,6 @@
 }
 header {
     background-image: url("../img/bgimage.png");
-    min-height: 980px;
     background-size: cover;
 }
 .menu {
@@ -84,6 +83,9 @@ header {
     max-width: 1170px;
     margin: 0 auto;
 }
+/*.screen1_video {
+    width: 90%;
+}*/
 .left h2 {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
