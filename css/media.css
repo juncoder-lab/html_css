@@ -275,15 +275,20 @@
         flex-direction: column;
         align-items: center;
     }
+    .left h2 {
+        font-size: 37px;
+    }
     .screen1_video {
         display: block;
         width: 315px;
         margin: 0 auto;
     }
     .plbutton {
-        position: absolute;
         bottom: 70px;
-        left: 250px;
+        left: 40%;
+    }
+    .screen2_h2 {
+        font-size: 44px;
     }
     .right {
         margin: 30px 10%;
@@ -293,20 +298,27 @@
         padding-top: 0;
     }
     .screen2_items {
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
     }
     .screen2_item1 {
-        width: 69%;
+        width: 98%;
+    }
+    .screen3HeadText {
+        margin-top: 50px;
     }
     .screen3Images {
         justify-content: center;
     }
-    .screen3Images_long {
-        width: 570px;
+    .screen3Images img {
+        display: block;
+        width:98%;
+    }
+    .screen4 {
+        margin-top: 0;
     }
     .screen5_item1 {
-        width: 48%;
+        width: 100%;
     }
     .screen6_big_text {
         font-size: 25px;
@@ -315,17 +327,35 @@
         font-size: 12px;
     }
     .screen6_left {
-        margin-left: 10px;
-        margin-right: 0;
+        margin: 20px auto;
+    }
+    .screen6_right {
+        display: none;
+    }
+    .screen6_button a {
+        margin: 46px 20px 0;
     }
     .screen9_wrapper {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .screen7_wrapper {
+        flex-direction: column;
+    }
+    .screen7_item {
+        margin-bottom: 20px;
+    }
     .screen8_wrapper {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .screen8_input input {
+        width: 250px;
+    }
+    .screen8_button {
+        display: block;
+        margin: 10px auto;
     }
     .btn1 a {
         width: 125px;
