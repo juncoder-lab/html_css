@@ -156,6 +156,9 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    .wrapper {
+        padding: 0 10px;
+    }
     header {
         background-image: url("../img/bgimage768.png");
         min-height: 392px;
@@ -229,7 +232,7 @@
     .btn1 a {
         width: 125px;
         padding: 10px 11px 10px 11px;
-        font-size: 7px;
+        font-size: 9px;
     }
     .slogan1 {
         font-size: 30px;
@@ -251,6 +254,9 @@
     header {
         background-image: url("../img/bgimage576.png");
         min-height: 294px;
+    }
+    .wrapper {
+        padding: 0 10px;
     }
     .menu_list {
         display: none;
@@ -360,6 +366,15 @@
     .btn1 a {
         width: 125px;
         padding: 10px 11px 10px 11px;
-        font-size: 7px;
+        font-size: 9px;
+    }
+    .screen4 {
+        padding-top: 40px;
+    }
+    .screen2_item1 p {
+        padding-bottom: 20px;
+    }
+    .big {
+        line-height: 1.5;
     }
 }
