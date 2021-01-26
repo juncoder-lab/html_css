@@ -15,18 +15,27 @@
         <header>
             <div class="menu">
                 <img class="logo" src="img/logo.png" alt="logo">
+                <div class="burger"></div>
                 <ul class="menu_list">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Teacher</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#teacher">Teacher</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
                 <div class="btn1">
                     <a href="#">start your free trial</a>
                 </div>
             </div>
+            <ul class="burger_menu_list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#teacher">Teacher</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
             <div class="slogan">
                 <div class="slogan1">
                 Be Happy
@@ -40,7 +49,7 @@
             </div>
         </header>
         <div class="screen1wrapper">
-            <section class="screen1">
+            <section class="screen1" id="blog">
                 <div class="left">
                 <h2>Everyone's Yoga</h2>
                 <p>
@@ -111,7 +120,7 @@
         <div class="screen2">
                 <div class="screen2_wrapper">
                 <div class="screen2_head_image"><img src="img/screen2_image.png" alt="image"></div>
-                <h2 class="screen2_h2">Our Classes</h2>
+                <h2 class="screen2_h2" id="about_us">Our Classes</h2>
                 <div class="screen2_items">
                     <div class="screen2_item1">
                         <img class="screen2_item1_image" src="img/screen2_item1.png" alt="image">
@@ -197,7 +206,7 @@
             </div>
         <div class="screen3">
                 <div class="screen3wrapper">
-                <div class="screen3HeadText">
+                <div class="screen3HeadText" id="pricing">
                     Tap into your inner fountain of youth.
                 </div>
                 <div class="screen3SmallText">
@@ -233,7 +242,7 @@
             </div>
             </div>
         <div class="screen5">
-                <div class="screen5_wrapper">
+                <div class="screen5_wrapper" id="teacher">
                     <div class="screen5_item1">
                         <img src="img/screen5_item1.png" alt="image">
                         <div class="screen5_item1_text">
@@ -519,5 +528,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
